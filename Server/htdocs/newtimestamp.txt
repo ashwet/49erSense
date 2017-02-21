@@ -1,0 +1,2 @@
+INSERT INTO lights(user_id,floor,location,dimmer_level,date)
+		VALUES ('user_id','main','location','dimmer_level',now())

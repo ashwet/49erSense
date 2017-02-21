@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raj.iot.SecurityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="Security System"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/Security_System"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/security"
+        android:layout_below="@+id/Security_System"
+        android:layout_alignLeft="@+id/Security_System"
+        android:layout_alignStart="@+id/Security_System"
+        android:layout_marginTop="39dp"
+        android:id="@+id/securityDisarmed" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/security"
+        android:layout_alignTop="@+id/securityDisarmed"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/securityArmedAway" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/security"
+        android:layout_alignBottom="@+id/securityArmedAway"
+        android:layout_alignRight="@+id/Security_System"
+        android:layout_alignEnd="@+id/Security_System"
+        android:id="@+id/securityArmedStay" />
+
+    <TextView
+        android:text="Disarmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/securityDisarmed"
+        android:layout_alignLeft="@+id/securityDisarmed"
+        android:layout_alignStart="@+id/securityDisarmed"
+        android:layout_marginTop="28dp"
+        android:id="@+id/security_disarmed" />
+
+    <TextView
+        android:text="Armed (Away)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/security_disarmed"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/security_armed_away" />
+
+    <TextView
+        android:text="Armed (Stay)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/security_armed_away"
+        android:layout_alignRight="@+id/securityArmedStay"
+        android:layout_alignEnd="@+id/securityArmedStay"
+        android:id="@+id/security_armed_stay" />
+
+
+</RelativeLayout>

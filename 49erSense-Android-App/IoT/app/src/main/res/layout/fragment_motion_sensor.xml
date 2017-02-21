@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raj.iot.MotionSensorFragment">
+
+
+    <TextView
+        android:text="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/off"
+        android:layout_below="@+id/inactive"
+        android:layout_alignLeft="@+id/inactive"
+        android:layout_alignStart="@+id/inactive"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/on"
+        android:id="@+id/active"
+        android:layout_marginTop="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/inactive"
+        android:layout_toStartOf="@+id/inactive"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/off"
+        android:id="@+id/inactive"
+        android:layout_marginRight="122dp"
+        android:layout_marginEnd="122dp"
+        android:layout_alignTop="@+id/active"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="ON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/on"
+        android:layout_below="@+id/active"
+        android:layout_alignLeft="@+id/active"
+        android:layout_alignStart="@+id/active"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radio"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/active"
+        android:layout_alignStart="@+id/active">
+
+        <RadioButton
+            android:text="1st Floor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp" />
+
+        <RadioButton
+            android:text="2nd Floor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/up"
+            />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

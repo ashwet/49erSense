@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">49erSense</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello">Hello World!</string>
+
+    <string name="start">Manage Community</string>
+    <string name="welcome">Welcome!</string>
+
+    <string name="car_2">Enter 1 - Car</string>
+    <string name="car_1">Enter 2 - Car</string>
+
+    <string name="open_weather_maps_app_id">bf53a19cf1744e88b20b1d79159757a9</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="reset_button">   Reset   </string>
+    <string name="login_button">   Login    </string>
+    <string name="register_button">Register</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="exit_button">Exit</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="HomeActivity">Home</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="password_verify_label">Verify Password</string>
+    <string name="password_verify_hint">Password</string>
+    <string name="email_label">Email</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone No:</string>
+    <string name="email_hint">Email</string>
+    <string name="firstName_hint">Enter First Name</string>
+    <string name="phone_hint">Enter Phone Number</string>
+    <string name="lastName_hint">Enter Last Name</string>
+    <string name="gender_label">Gender</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="accept_agreement_label">Accept Agreement</string>
+    <string name="register_button_label">Register</string>
+    <string name="reset_button_label">Reset</string>
+    <string name="back_button_label">Back</string>
+
+    <!-- Error Messages -->
+    <string name="success_message">Verification was Successful!</string>
+    <string name="username_error_message">Username Not Provided!</string>
+    <string name="password_error_message">Password Not Provided!</string>
+    <string name="minimum_length_error">Please Enter More Than 5 Characters!</string>
+    <string name="passwordmatch_error_message">Passwords Do Not Match!</string>
+    <string name="fName_error_message">First Name Not Provided!</string>
+    <string name="lName_error_message">Last Name Not Provided!</string>
+    <string name="email_error_message">Email Not Provided!</string>
+    <string name="emailpattern_error_message">Email Format Invalid!</string>
+    <string name="phone_error_message">Phone Number Not Provided!</string>
+    <string name="agreement_error_message">You Must Accept the Agreement!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

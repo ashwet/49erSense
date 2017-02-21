@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/garage_open"
+        android:title="HomeScreen" />
+    <item android:title="Features">
+        <menu>
+        <item
+            android:id="@+id/nav_security_system"
+            android:icon="@drawable/security"
+            android:title="Security System" />
+            <item
+                android:id="@+id/nav_images"
+                android:icon="@drawable/images"
+                android:title="Images" />
+            <item
+                android:id="@+id/nav_sensors"
+                android:icon="@drawable/sensors"
+                android:title="Sensors" />
+
+            <item
+            android:id="@+id/nav_motion_sensors"
+            android:icon="@drawable/motionsensor"
+            android:title="Motion Sensor" />
+        <item
+            android:id="@+id/nav_locks"
+            android:icon="@drawable/lock"
+            android:title="Locks" />
+
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/garage_closed"
+            android:title="Garage Doors" />
+
+            <item
+                android:id="@+id/nav_videos"
+                android:icon="@drawable/video"
+                android:title="Videos" />
+
+            <item
+                android:id="@+id/nav_lights"
+                android:icon="@drawable/light"
+                android:title="Lights" />
+
+            <item
+                android:id="@+id/nav_thermostat"
+                android:icon="@drawable/thermostat"
+                android:title="Thermostats" />
+            <item
+                android:id="@+id/nav_weather"
+                android:icon="@drawable/weather"
+                android:title="Weather" />
+            <item
+                android:id="@+id/nav_energy"
+                android:icon="@drawable/energy"
+                android:title="Energy" />
+
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_manage_account"
+                android:icon="@drawable/manage_account"
+                android:title="Manage Account" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/exit"
+        android:title="Exit" />
+</menu>

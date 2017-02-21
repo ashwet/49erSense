@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raj.iot.GarageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/garage_closed"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp"
+        android:id="@+id/close"
+        android:layout_alignTop="@+id/open"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/garage_open"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp"
+        android:id="@+id/open"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:text="Open Garage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:layout_alignLeft="@+id/open"
+        android:layout_alignStart="@+id/open"
+        android:id="@+id/garageopen" />
+
+    <TextView
+        android:text="Close Garage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:layout_alignLeft="@+id/close"
+        android:layout_alignStart="@+id/close"
+        android:id="@+id/garageclose" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/garageopen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:text="1 Car Garage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_alignRight="@+id/open"
+            android:layout_alignEnd="@+id/open"
+            android:id="@+id/car1" />
+
+        <RadioButton
+            android:text="2 Car Garage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/car1"
+            android:layout_alignRight="@+id/close"
+            android:layout_alignEnd="@+id/close"
+            android:layout_gravity="right"
+            android:id="@+id/car2" />
+    </RadioGroup>
+
+</RelativeLayout>
